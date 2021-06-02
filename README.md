@@ -1,38 +1,11 @@
-# flask loguru简单示例
+## 这是如何在您的烧瓶应用程序中使用 loguru 的简单示例
+只需创建一个新的 InterceptHandler 并将其添加到您的应用程序中即可。应该在您的配置文件中配置不同的设置，以便于更改设置。
 
-#### 介绍
-这是如何在您的烧瓶应用程序中使用 loguru 的简单示例
+日志记录就像这样简单：
 
+```python
+from loguru import logger
 
-#### 软件架构
-软件架构说明
+logger.info("I am logging from loguru!")
+```
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
